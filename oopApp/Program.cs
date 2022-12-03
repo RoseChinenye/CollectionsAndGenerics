@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            practice practice = new practice();
-            
-            practice.Collections();
+            usingStack practice = new usingStack();
+            practice.UseGenericStack();
         }
     }
 }
