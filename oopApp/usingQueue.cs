@@ -1,6 +1,6 @@
 ﻿
-namespace oopApp
-{
+namespace oopApp;
+
     public class T
     {
         public string? FirstName;
@@ -15,9 +15,9 @@ namespace oopApp
 
             queue.Enqueue(new T() { FirstName = "Obianuju", LastName = "Okeke" });
             queue.Enqueue(new T() { FirstName = "Chinenye", LastName = "Ugwunwa" });
-            queue.Enqueue(new T() { FirstName = "Rose", LastName = "Onah" });
+            queue.Enqueue(new T() { FirstName = "Rose", LastName = "Nwankwo" });
 
             Console.WriteLine("My name is {0}", queue.Peek().FirstName);
         }
     }
-}
+

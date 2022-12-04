@@ -1,14 +1,16 @@
-﻿namespace oopApp
-{
-    internal class Program
+﻿namespace oopApp;
+
+    public class Program
     {
         static void Main(string[] args)
         {
             usingStack practice = new usingStack();
-            practice.UseGenericStack();
+            //practice.UseGenericStack();
 
-          usingQueue usingQueue = new usingQueue();
+            usingQueue usingQueue = new usingQueue();
             //usingQueue.Queue();
+
+            usingPriorityQueue usingPriorityQueue = new usingPriorityQueue();
+            usingPriorityQueue.getPriorityQueue();
         }
     }
-}
