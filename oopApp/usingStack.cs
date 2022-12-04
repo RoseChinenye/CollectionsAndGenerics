@@ -20,16 +20,16 @@ namespace oopApp
             stackOfPeople.Push(new Person { FirstName = "Lisa", LastName = "Simpson", Age = 9 });
 
             // Now look at the top item, pop it, and look again.
-            Console.WriteLine("First person is: {0}", stackOfPeople.Peek());
-            Console.WriteLine("Popped off {0}", stackOfPeople.Pop());
-            Console.WriteLine("\nFirst person is: {0}", stackOfPeople.Peek());
-            Console.WriteLine("Popped off {0}", stackOfPeople.Pop());
-            Console.WriteLine("\nFirst person item is: {0}", stackOfPeople.Peek());
-            Console.WriteLine("Popped off {0}", stackOfPeople.Pop());
+            Console.WriteLine("First person is: {0}", stackOfPeople.Peek().FirstName);
+            Console.WriteLine("Popped off {0}", stackOfPeople.Pop().FirstName);
+            Console.WriteLine("\nFirst person is: {0}", stackOfPeople.Peek().FirstName);
+            Console.WriteLine("Popped off {0}", stackOfPeople.Pop().FirstName);
+            Console.WriteLine("\nFirst person item is: {0}", stackOfPeople.Peek().FirstName);
+            Console.WriteLine("Popped off {0}", stackOfPeople.Pop().FirstName);
             try
             {
-                Console.WriteLine("\nnFirst person is: {0}", stackOfPeople.Peek());
-                Console.WriteLine("Popped off {0}", stackOfPeople.Pop());
+                Console.WriteLine("\nnFirst person is: {0}", stackOfPeople.Peek().FirstName);
+                Console.WriteLine("Popped off {0}", stackOfPeople.Pop().FirstName);
             }
             catch (InvalidOperationException ex)
             {

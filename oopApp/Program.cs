@@ -6,6 +6,9 @@
         {
             usingStack practice = new usingStack();
             practice.UseGenericStack();
+
+          usingQueue usingQueue = new usingQueue();
+            //usingQueue.Queue();
         }
     }
 }
