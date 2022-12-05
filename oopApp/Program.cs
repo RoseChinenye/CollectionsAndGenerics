@@ -11,6 +11,9 @@
             //usingQueue.Queue();
 
             usingPriorityQueue usingPriorityQueue = new usingPriorityQueue();
-            usingPriorityQueue.getPriorityQueue();
+            //usingPriorityQueue.getPriorityQueue();
+
+            dictionary dictionary = new dictionary();
+            dictionary.getDictionary();
         }
     }

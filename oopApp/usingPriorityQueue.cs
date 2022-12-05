@@ -21,7 +21,7 @@
                 Console.WriteLine("My name is {0}", priorityQueue.Dequeue().FirstName);
                 Console.WriteLine("My name is {0}", priorityQueue.Dequeue().FirstName);
                 Console.WriteLine("My name is {0}", priorityQueue.Dequeue().FirstName);
-    }
+            }
         }
 
 
